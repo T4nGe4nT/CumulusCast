@@ -1,0 +1,55 @@
+body {
+    background-image: url(isoline.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.bigcont {
+    background-color: rgba(248, 249, 250, 1);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0px 0px 80px  rgb(90, 90, 90);
+}
+
+#weatherData {
+    display: none;
+    background-color: rgba(248, 249, 250, 1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+span {
+    font-size: 1.5em;
+    padding-right: 40px;
+}
+
+.weather-heading {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.btn-secondary {
+    background-color: #9faac3;
+    border-color: #fff;
+}
+
+.weather-icon {
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
+.kanit-bold {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+}
+
+.hind {
+    font-family: 'Hind', sans-serif;
+    font-weight: 500;
+}
